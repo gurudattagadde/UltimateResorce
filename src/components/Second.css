@@ -1,0 +1,51 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blue-text {
+  color: blue;
+}
+
+/* styles.css */
+.three-columns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.three-columns > div {
+  flex: 1;
+  padding: 20px;
+  border-bottom: 1px solid #007bff; /* Add blue horizontal border at the bottom */
+}
+
+ 
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  
+}
+
+/* Additional styling for demonstration purposes */
+
+.three-columns div,
+.two-columns div {
+  padding: 10px; 
+  text-align: center;
+}
+.paragraph-container p {
+  display: inline; /* Use inline display to ensure each paragraph is displayed in a single line */
+  margin: 0; /* Remove any default margin to avoid unnecessary space */
+}
+.progress-circles-wrapper {
+  display: flex;  
+  align-items: center;
+}
+ .bluehr{ 
+  background-color: #007bff;
+  height: 1.5px;
+ }

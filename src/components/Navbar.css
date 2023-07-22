@@ -1,0 +1,44 @@
+.navbar {  
+}
+
+.desktop-view {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #333;
+}
+.icon1 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #002dcf;
+}
+.mobile-view {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-view {
+    display: none;
+  }
+
+  .mobile-view {
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon {
+    margin: 8px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+  } .icon1 {
+    margin: 8px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #002dcf;
+  }
+}
