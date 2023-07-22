@@ -25,7 +25,7 @@
   }
 
   .content {
-    margin-left: 120px; /* To accommodate the width of the navbar */
+    margin-left: 120px;
     display: flex;
     justify-content: space-between;
   }
