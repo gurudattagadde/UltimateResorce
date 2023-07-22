@@ -8,7 +8,6 @@
   color: blue;
 }
 
-/* styles.css */
 .three-columns {
   display: flex;
   justify-content: space-between;
@@ -30,16 +29,14 @@
   
 }
 
-/* Additional styling for demonstration purposes */
-
 .three-columns div,
 .two-columns div {
   padding: 10px; 
   text-align: center;
 }
 .paragraph-container p {
-  display: inline; /* Use inline display to ensure each paragraph is displayed in a single line */
-  margin: 0; /* Remove any default margin to avoid unnecessary space */
+  display: inline;
+  margin: 0;
 }
 .progress-circles-wrapper {
   display: flex;  
